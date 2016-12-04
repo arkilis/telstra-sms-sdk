@@ -7,13 +7,15 @@
 
 If you have any questions or issue, please create an issue or pull request.
 
---- 
+
+
+ 
 ### Prerequisite 
 
-
+Before you are using this lib, please register an App on Telstra at https://dev.telstra.com/. Their sms will be activated within a fews days. So be patient or you can just call them. :)
 
 ----
-### To install
+### To Install
 
 __Method 1: Use `pip`__
 ```bash
@@ -27,9 +29,9 @@ __Method 2: Manually Install__
 https://pypi.python.org/pypi/telstra-sms-sdk
 
 ----
-### To use
+### To Use and Example
 ```python
-from telstra-sms-sdk.sms import TelstraSMS
+from telstra_sms_sdk.sms import TelstraSMS
 
 ts = TelstraSMS(client_id=CLIENT_ID, client_secret=CLIENT_SECRET)
 ts.get_token()
