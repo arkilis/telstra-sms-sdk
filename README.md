@@ -2,7 +2,7 @@
 
  A fully tested Python SDK allow you to send sms in a more easy way! 
 
-`Current version:` 0.0.4
+`Current version:` 0.0.6
 
 
 If you have any questions or issue, please create an issue or pull request.

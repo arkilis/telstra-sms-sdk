@@ -7,7 +7,7 @@ Austrlian Telstra SMS send utlity. To apply such a service, go https://dev.telst
 License: MIT
 """
 
-__version__ = "0.0.1"
+__version__ = "0.0.6"
 
 import requests
 from requests import RequestException
