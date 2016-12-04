@@ -33,6 +33,9 @@ https://pypi.python.org/pypi/telstra-sms-sdk
 ```python
 from telstra_sms_sdk.sms import TelstraSMS
 
+
+# CLIENT_IDi and CLIENT_SECRET are strings getting from Telstra app  
+
 ts = TelstraSMS(client_id=CLIENT_ID, client_secret=CLIENT_SECRET)
 ts.get_token()
 ts.send_sms("0400000000", sms_text="Hi this is unit test")
